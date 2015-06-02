@@ -17,12 +17,11 @@ body {
 }
 
 #header .nav {
-    padding-top: 25px;
+    padding-bottom: 30px;
 }
 
 #header .nav>li>a {
-    font-size: 18px;
-    font-weight: normal;
+    color: white;
 }
 
 #header .nav>li>a:focus,
@@ -48,7 +47,6 @@ body {
 #navbar.navbar-default .navbar-nav > li > a:hover,
 #navbar.navbar-default .navbar-nav > li > a:focus {
     color: #fff;
-    background-color: #a52222;
 }
 
 #navbar.navbar-default .navbar-nav > .active > a,
@@ -65,15 +63,6 @@ body {
     margin-bottom: 50px;
     font-size: 16px;
     line-height: 150%;
-}
-
-.deal-of-day {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #b2b2b2;
-    height: 75px;
-    overflow: hidden;
-    text-align: center;
-    background: gold;
 }
 
 /*products-list*/
@@ -171,3 +160,51 @@ footer .nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
 }
+
+.manage-product span {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.manage-product a {
+    float:right;
+    margin-right:10px;
+}
+table {
+    width: 99%;
+}
+table #header {
+    background-color: #DDDDDD;
+    font-weight: bold;
+    text-align: center;
+}
+table, tr, td {
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+form, #add-product ul li { list-style-type:none; }
+form, #add-product ul li, #price { margin-right:30px; }
+#name { margin-right: 22px; }
+#btn-add-product { margin-left:65px; }
+.add-new-product { margin-bottom: 10px; margin-left:30px; }
+
+.style-right { float:right; }
+.style-left { float:left; margin-top: 5px; }
+.title-project { font-size: 20px; font-weight: bold; }
+.custom-bottom { border-width: 1px; border-bottom-width: 1px;
+                 border-bottom-color: #DDDDDD; border-bottom-style: solid; width: 100%;
+               }
+.add-project { float: right; margin-top: 30px; }
+.list-project { margin-top: 50px; width:100.5%; }
+table, thead, tr, th { padding-left:10px; height: 40px; }
+.td-align{ text-align: center; }
+.header-project { background-color: #DDDDDD; }
+
+#header .navbar-nav > li { background: none;}
+.general { margin-top: 30px; }
+.date-create { font-style: italic; }
+.file-pot { margin-right: 15px; background-color: #DDDDDD; }
+
+.select-locale { width: 200px; float: left; margin-left:5px; }
+.edit-translation {background-color: blue;}

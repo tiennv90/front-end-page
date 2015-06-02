@@ -5,10 +5,7 @@
     }
     .navbar {
         border-radius: 0px;
-    }
-    #header .navbar-nav > li {
-        background: rgba(255, 255, 255, .85);
-    }
+    }    
     .container > .navbar-header,
     .container-fluid > .navbar-header,
     .container > .navbar-collapse,

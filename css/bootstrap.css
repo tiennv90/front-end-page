@@ -1602,6 +1602,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 50px;
+  background-color: #333333;
 }
 .row {
   margin-right: -15px;
@@ -2310,7 +2312,7 @@ th {
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f9f9f9;
